@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a .git hidden folder and starts storing
+metadata for all the changes that occur within the directory.
+That's necessary to track all the various version control functionality
+from the point of initialization going forward.  Without it, no git historical
+functionality to work with.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area includes the tracked files (as opposed untracked files in the working
+directory).  Allows you to rehearse individual file additions before adding them to a commit.  Staging area is almost a different temporary virtual working directory, and exists just outside the repository before files begin to be tracked in the
+repository.
