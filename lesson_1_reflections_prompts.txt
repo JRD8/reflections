@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It created a text compare screen
+It elimnated all of the text that was identical
+Makes it easier to see the specific lines at issue
+With the + and - notations, I could see which files had additions or deletions
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1) Rather than manually restoring/copying code,
+you could easily revert to previous versions.
+2) You could experiment and make changes (forks)
+without fear of failure.  Always can revert back.
+3) You could likely merge different versions into
+a final version if there are different code chunks needed.
+4) You have all the work date stamped for easy reference.
+5) Other collaborators could look at the history of your work.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+You have much more control over the individual changes
+You get to annotate and comment each change
+Each change represents a logical step
+Cons:
+May forget and not save
+Requires more work
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git was created specifically for programming, the others were not.
+So, with programming version control, there's a need to save repositories
+and multiple files.  With Google Docs, the user is primarily working on
+a single document and so that's not the application for the version control.
+
+
+How can you use the commands git log and git diff to view the history of files?
+1) Typing git log will show you the enture history of commit changes
+in descending order of date.  Most recent - earliest.
+2) You can then use git diff commit_id_1 commit_id_2 to compare any two commits
+in the repository.  You will get a comparision, including addition/deletion of lines
+for each file in the repository.
+
+
+How might using version control make you more confident to make changes that could break something?
+It's pretty straightforward.  With the ability to scroll back and see your commit
+history, you can revert back to prior versions and compare with diff to see
+where bugs were introduced.  Makes changes "non destructive" to the code.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to ultimately use this in the capacity of my game design programming.
+
+
