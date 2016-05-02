@@ -41,4 +41,11 @@ flow going forward.
 It's represented the way it is so one can trace parents and reachability.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+Time saving
+More accurate generally
+Cons:
+Needs conflict resolutions periodically
+May be more difficult to grasp context of various code segments
 
