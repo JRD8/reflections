@@ -10,3 +10,35 @@ How is the staging area different from the working directory and the repository?
 Staging area includes the tracked files (as opposed untracked files in the working
 directory).  Allows you to rehearse individual file additions before adding them to a commit.  Staging area is almost a different temporary virtual working directory, and exists just outside the repository before files begin to be tracked in the
 repository.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can check with both the git diff and git diff --staged commands to check the
+difference between the working directory, the staging area and the last commit
+in the repository.  Valuable before making a commit which is permanent.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are most helpful when trying experimental new features or detours from
+the current production code.  Or, when creating alternate versions of the main
+code for possible reintegration later on.  Both situations are "non-destrictive"
+to the production code and allows these changes/experiments to live "in parallel" 
+with the production code.
+
+
+How do the diagrams help you visualize the branch structure?
+Very important.  They allow you to see where new commits have required new branches to be created.  They also help you understand which commit is a parent of a given commit and they allow you to track reachability in the branch/tree structure.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging 2 branches together is to: 
+1) create one going forward branch including all of the commit histories and final
+code of the two branches, 
+2) use an auto-recursive strategy to figure out how to combine the various
+independent codes into one comprensive set of files and,
+3) likely delete one of the branches that has been merged.  Streamlines the work
+flow going forward.
+It's represented the way it is so one can trace parents and reachability.
+
+
+
