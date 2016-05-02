@@ -2,7 +2,7 @@ Summary of git commands
 
 git init = creates a new repository in the current working directory
 git clone arg1 = imports a remote repository from address in arg1 into current directory 
-git diff commitID1 commitID2 = shows you changes between two commit ID
+git diff commitID1 commitID2 = shows you changes between two commit ID's
 git diff = shows changes from the working directory to the staging area
 git diff --staged = shows the changes from the staging area to latest commit in the repository
 git checkout arg1 = moves the HEAD to either a commitID or a branch depending on arg1
@@ -10,6 +10,8 @@ git add = adds a file from the working directory into the staging area
 git commit = commits all contents of the staging area into the repository
 git status = shows the current status of the HEAD, current contents of the staging area
 git log = shows the commit history in the current branch
-git branch arg1 = creates a new branch named arg1
-git merge arg1 arg2 = merges the commit history from arg1 into arg2
-git show
+git branch arg1 = creates a new branch in the name of arg1
+git branch = shows the current working branch
+git branch -d arg1 = deletes the branch named arg1
+git merge arg1 arg2 = merges the commit history from branch arg2 into branch arg1
+git show commitID1 = equivalent to diff between commitID1 and whatever its parent commit
