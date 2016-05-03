@@ -1,5 +1,0 @@
-When would you want to use a remote repository rather than keeping all your work local?
-Remote repositories are best for sharing code to multiple potential contributors.  Its
-also useful to use a cloud based storage backup resource.  Also good for programming
-while traveling so one can always have access to code no matter what/where computer
-one is working on.
