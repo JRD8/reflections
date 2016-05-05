@@ -3,23 +3,41 @@ Summary of git commands
 
 git --version = shows current version of git installed on local machine
 git --help = enters help section of git to research commands
+
 git init = creates a new repository in the current working directory
+
 git clone arg1 = imports a remote repository from address in arg1 into current directory 
+
 git diff commitID1 commitID2 = shows you changes between two commit ID's
 git diff = shows changes from the working directory to the staging area
 git diff --staged = shows the changes from the staging area to latest commit in the repository
+
 git checkout arg1 = moves the HEAD to either a commitID or a branch depending on arg1
+
 git add = adds a file from the working directory into the staging area
+
 git commit = commits all contents of the staging area into the repository
+
 git status = shows the current status of the HEAD, current contents of the staging area
+
 git log = shows the commit history in the current branch
+
 git branch arg1 = creates a new branch in the name of arg1
 git branch = shows the current working branch
 git branch -d arg1 = deletes the branch named arg1
+
 git merge arg1 arg2 = merges the commit history from branch arg2 into branch arg1
+
 git show commitID1 = equivalent to diff between commitID1 and whatever its parent commit
+
 git remote = shows any and all current remotes
 git remote add (origin or arg1) URL = names remote that you will access on GitHub.  Suggested name arg1, especially if only one available remote, is "origin"
 git remote -v = verbose version, shows any current remotes in further detail including their URL status
+
 git push (remote) (branch) = pushes the specificed branch from the local repository to the specified remote
+
+git pull (remote) (branch) = pulls the specificed branch from the specified remote repository to the local repository
+
+git fetch = a syncing command between the local and remote repositories.  Important, git pull origin master = git fetch origin + git merge master origin/master
+
 
