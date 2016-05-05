@@ -3,3 +3,18 @@ Remote repositories are best for sharing code to multiple potential contributors
 also useful to use a cloud based storage backup resource.  Also good for programming
 while traveling so one can always have access to code no matter what/where computer
 one is working on.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+You want to perhaps keep some changes private before "publishing" them to a public 
+or shared respitory where other collaborators can both pull your code and make
+further changes.  Also, you may way to test your code or keep different copies 
+locally before committing to updating those same commits on the cloud backup.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Clones are making a direct copy of an existing repository - can happen either
+locally or from github to a local machine.  Branches occur within a depository.
+These are generally done locally and not directly on GitHub.  Forking is when 
+you want to clone a 3rd prty repository and make changes for your own personal
+use.
