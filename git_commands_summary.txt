@@ -1,5 +1,8 @@
 Summary of git commands
 
+
+git --version = shows current version of git installed on local machine
+git --help = enters help section of git to research commands
 git init = creates a new repository in the current working directory
 git clone arg1 = imports a remote repository from address in arg1 into current directory 
 git diff commitID1 commitID2 = shows you changes between two commit ID's
