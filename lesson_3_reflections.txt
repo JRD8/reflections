@@ -19,8 +19,16 @@ These are generally done locally and not directly on GitHub.  Forking is when
 you want to clone a 3rd prty repository and make changes for your own personal
 use.
 
+
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can use that as a reference to auto-merge future states of the remote repository
 during pull requests.  Need that information in order to handle all conflict
 resolutions.  Also, you can work offline as needed and then push changes to the 
 remote when finally accessable to internet.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I don't believe anything would be easier.  You'd have to save local versions and then
+email or somehow transfer them to another working directory from a collaborator.
+No version-control.  Loads of additional headaches.  Viva Git and GitHub!
+
