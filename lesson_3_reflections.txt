@@ -32,3 +32,13 @@ I don't believe anything would be easier.  You'd have to save local versions and
 email or somehow transfer them to another working directory from a collaborator.
 No version-control.  Loads of additional headaches.  Viva Git and GitHub!
 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A separate branch is used for experimental and/or 3rd party development features
+separate from the existing master branch, which is working production code.  The
+new branch(s) may not yet be bug-free and may still have experimental features from
+collaborators not yet approved by the project supervisor.  Much easier to use
+separate branches, rather than working all these various features/options/debugging
+on the master branch.
+
+

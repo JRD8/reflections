@@ -40,4 +40,6 @@ git pull (remote) (branch) = pulls the specificed branch from the specified remo
 
 git fetch = a syncing command between the local and remote repositories.  Important, git pull origin master = git fetch origin + git merge master origin/master
 
+ls - a = show directory contents INCLUDING hidden files
+
 
